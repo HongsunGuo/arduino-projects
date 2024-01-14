@@ -68,4 +68,6 @@ int checkCMD()
     trigPin = PINs[7];
   else
     return trigPin;
+  
+  return trigPin;
 }
